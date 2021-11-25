@@ -1171,7 +1171,7 @@ class ZappaCLI:
             aws_environment_variables=self.aws_environment_variables,
             aws_kms_key_arn=self.aws_kms_key_arn,
             layers=self.layers,
-            wait=False,
+            wait=True,
         )
 
         # Finally, delete the local copy our zip package
